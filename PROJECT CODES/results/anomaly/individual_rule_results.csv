@@ -1,0 +1,7 @@
+fault_type,rule_column,ground_truth_count,total_alerts,clean_false_positives,true_positives,false_positives,false_negatives,precision,recall,f1_score
+demand_spike,rule_demand_spike,4,23,19,4,19,0,0.17391304347826086,1.0,0.29629629629629634
+demand_drop,rule_demand_drop,4,337,325,4,333,0,0.011869436201780416,1.0,0.02346041055718475
+solar_degradation,rule_solar_degradation,4,4,0,4,0,0,1.0,1.0,1.0
+wind_generation_loss,rule_wind_generation_loss,4,17,12,4,13,0,0.23529411764705882,1.0,0.38095238095238093
+grid_import_disturbance,rule_grid_import_disturbance,4,15,0,4,11,0,0.26666666666666666,1.0,0.4210526315789474
+wind_speed_sensor_stuck,rule_wind_sensor_flatline,4,1,0,1,0,3,1.0,0.25,0.4
